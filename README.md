@@ -1,4 +1,4 @@
-Adapt Command Line Interface
+Adapt Command Line Interface (MODDED)
 ============================
 
 [![Build Status](https://travis-ci.org/adaptlearning/adapt-cli.png?branch=master)](https://travis-ci.org/adaptlearning/adapt-cli)
@@ -9,7 +9,7 @@ Installation
 To install the Adapt CLI, first be sure to install [NodeJS](http://nodejs.org) and [git](http://git-scm.com/downloads), then from the command line run:-
 
 
-        npm install -g adapt-cli
+        npm install git+https://github.com/KevCJones/adapt-cli.git -g
 
 
 Usage
