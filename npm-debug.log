@@ -1,0 +1,54 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/Users/kevcjones/.nvm/v0.10.31/bin/node',
+1 verbose cli   '/Users/kevcjones/.nvm/v0.10.31/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   '-g',
+1 verbose cli   'git+https://github.com/KevCJones/adapt-cli.git#develop@0.0.161' ]
+2 info using npm@1.4.23
+3 info using node@v0.10.31
+4 verbose cache add [ 'git+https://github.com/KevCJones/adapt-cli.git#develop@0.0.161',
+4 verbose cache add   null ]
+5 verbose cache add name=undefined spec="git+https://github.com/KevCJones/adapt-cli.git#develop@0.0.161" args=["git+https://github.com/KevCJones/adapt-cli.git#develop@0.0.161",null]
+6 verbose parsed url { protocol: 'git+https:',
+6 verbose parsed url   slashes: true,
+6 verbose parsed url   auth: null,
+6 verbose parsed url   host: 'github.com',
+6 verbose parsed url   port: null,
+6 verbose parsed url   hostname: 'github.com',
+6 verbose parsed url   hash: '#develop@0.0.161',
+6 verbose parsed url   search: null,
+6 verbose parsed url   query: null,
+6 verbose parsed url   pathname: '/KevCJones/adapt-cli.git',
+6 verbose parsed url   path: '/KevCJones/adapt-cli.git',
+6 verbose parsed url   href: 'git+https://github.com/KevCJones/adapt-cli.git#develop@0.0.161' }
+7 silly lockFile 0881520e-thub-com-KevCJones-adapt-cli-git https://github.com/KevCJones/adapt-cli.git
+8 verbose lock https://github.com/KevCJones/adapt-cli.git /Users/kevcjones/.npm/0881520e-thub-com-KevCJones-adapt-cli-git.lock
+9 verbose addRemoteGit [ 'https://github.com/KevCJones/adapt-cli.git',
+9 verbose addRemoteGit   'develop@0.0.161' ]
+10 verbose git clone https://github.com/KevCJones/adapt-cli.git Cloning into bare repository '/Users/kevcjones/.npm/_git-remotes/https-github-com-KevCJones-adapt-cli-git-0881520e'...
+11 verbose git fetch -a origin (https://github.com/KevCJones/adapt-cli.git)
+12 error Failed resolving git HEAD (https://github.com/KevCJones/adapt-cli.git) fatal: ambiguous argument 'develop@0.0.161': unknown revision or path not in the working tree.
+12 error Failed resolving git HEAD (https://github.com/KevCJones/adapt-cli.git) Use '--' to separate paths from revisions, like this:
+12 error Failed resolving git HEAD (https://github.com/KevCJones/adapt-cli.git) 'git <command> [<revision>...] -- [<file>...]'
+13 silly lockFile 0881520e-thub-com-KevCJones-adapt-cli-git https://github.com/KevCJones/adapt-cli.git
+14 silly lockFile 0881520e-thub-com-KevCJones-adapt-cli-git https://github.com/KevCJones/adapt-cli.git
+15 error Error: Command failed: fatal: ambiguous argument 'develop@0.0.161': unknown revision or path not in the working tree.
+15 error Use '--' to separate paths from revisions, like this:
+15 error 'git <command> [<revision>...] -- [<file>...]'
+15 error
+15 error     at ChildProcess.exithandler (child_process.js:648:15)
+15 error     at ChildProcess.emit (events.js:98:17)
+15 error     at maybeClose (child_process.js:756:16)
+15 error     at Socket.<anonymous> (child_process.js:969:11)
+15 error     at Socket.emit (events.js:95:17)
+15 error     at Pipe.close (net.js:465:12)
+16 error If you need help, you may report this *entire* log,
+16 error including the npm and node versions, at:
+16 error     <http://github.com/npm/npm/issues>
+17 error System Darwin 13.3.0
+18 error command "/Users/kevcjones/.nvm/v0.10.31/bin/node" "/Users/kevcjones/.nvm/v0.10.31/bin/npm" "install" "-g" "git+https://github.com/KevCJones/adapt-cli.git#develop@0.0.161"
+19 error cwd /Volumes/Work Drive/Dropbox/Work/AdaptFramework/adapt-cli
+20 error node -v v0.10.31
+21 error npm -v 1.4.23
+22 error code 128
+23 verbose exit [ 1, true ]
