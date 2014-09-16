@@ -9,11 +9,20 @@ Installation
 To install the Adapt CLI, first be sure to install [NodeJS](http://nodejs.org) and [git](http://git-scm.com/downloads), then from the command line run:-
 
 
-        npm install git+https://github.com/KevCJones/adapt-cli.git -g
+        npm install git+https://github.com/KevCJones/adapt-cli.git#0.0.162 -g
+
 
 
 Usage
 -----
+
+### Adding env variables to your bash or .zshrc configurations
+
+My custom framwork which includes the structure folder system
+export ADAPT_FRAMEWORK="https://github.com/KevCJones/adapt_framework"
+
+Add in a private bower registry so that you can install private themes and plugins
+export ADAPT_REGISTRY_ALT="http://gitman-server:5678/"
 
 ##### Creating an Adapt course
 
